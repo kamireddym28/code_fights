@@ -8,7 +8,6 @@ removeKFromList(l, k) = [1, 2, 4, 5];
 removeKFromList(l, k) = [1, 2, 3, 4, 5, 6, 7].
 '''
 
-
 # Definition for singly-linked list:
 #class ListNode(object):
 #   def __init__(self, x):
