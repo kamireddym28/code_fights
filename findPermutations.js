@@ -1,3 +1,10 @@
+/*
+Given an array, find the permutations(with all distinct elements) of all the elements in an array.
+
+Eg: Input: [a,b,c]
+    Output: [abc, bca, cab]
+*/
+
 function getPermutations(strVar) {
     // Is there only one character,
     // then there is only one permutation... return it!
