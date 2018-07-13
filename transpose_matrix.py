@@ -8,4 +8,17 @@ Eg1: Input: [[1,2,3],[4,5,6],[7,8,9]]
      
 Eg2: Input: [[1,2,3],[4,5,6]]
      Output: [[1,4],[2,5],[3,6]]
+     
+Note:
+
+1 <= A.length <= 1000
+1 <= A[0].length <= 1000
 '''
+
+class Solution:
+    def transpose(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        return [list(x) for x in zip(*A)]
